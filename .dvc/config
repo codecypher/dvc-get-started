@@ -3,3 +3,5 @@
 ['remote "storj"']
     url = s3://dvc-get-started/dvcstore
     endpointurl = https://gateway.storjshare.io/dvc-get-started
+    access_key_id = jughy4gkwhncxtikac36l5oqac7q
+    secret_access_key = j2sb5lbyqyo5giabatq4jogee2aegwipaaftsiqelp33vozgae23i
