@@ -9,6 +9,7 @@ stages:
     - prepare.split
     outs:
     - data/prepared
+
   featurize:
     cmd: python src/featurization.py data/prepared data/features
     deps:
@@ -19,6 +20,7 @@ stages:
     - featurize.ngrams
     outs:
     - data/features
+
   train:
     cmd: python src/train.py data/features model.pkl
     deps:
@@ -30,6 +32,7 @@ stages:
     - train.seed
     outs:
     - model.pkl
+
   evaluate:
     cmd: python src/evaluate.py model.pkl data/features
     deps:
