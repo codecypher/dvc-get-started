@@ -1,4 +1,5 @@
 [core]
-    remote = storage
-['remote "storage"']
-    url = https://gateway.storjshare.io/dvc-get-started
+    remote = storj
+['remote "storj"']
+    url = s3://dvc-get-started/dvcstore
+    endpointurl = https://gateway.storjshare.io/dvc-get-started
