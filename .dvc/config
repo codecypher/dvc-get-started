@@ -1,4 +1,4 @@
 [core]
-    remote = main
-['remote "main"']
-    url = https://gateway.storjshare.io//dvc-get-started
+    remote = storage
+['remote "storage"']
+    url = https://gateway.storjshare.io/dvc-get-started
