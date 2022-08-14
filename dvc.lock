@@ -74,8 +74,8 @@ stages:
       md5: 099ba05938dcee126403b109f3ce793f
       size: 73
     - path: evaluation/importance.png
-      md5: 3c00de7be61ab7ebd141e68510f2757d
-      size: 34065
+      md5: 59b418522235f1b9ddc1653d83b41dba
+      size: 34261
     - path: evaluation/plots/confusion_matrix.json
       md5: 86c0c21030f85476b76de983d70effb1
       size: 122246
